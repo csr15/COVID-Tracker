@@ -1,0 +1,78 @@
+//Color
+$priCol: #2c17f4;
+
+//Font
+$pop: "Poppins", sans-serif;
+.navbar-layout {
+  nav {
+    padding: 5px 0px 0px 0px;
+    margin: 0px 0px 5px 0px;
+    .navbar-toggler {
+      color: #000;
+      &:hover {
+        color: $priCol;
+      }
+      &:hover {
+        color: $priCol;
+        outline: none;
+        box-shadow: none;
+      }
+    }
+    .navbar {
+      a {
+        color: rgb(104, 104, 104);
+        font-family: $pop;
+        font-size: 14px;
+        margin: 10px 15px;
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: 2px;
+        &:hover {
+          color: $priCol;
+          transition: all 0.5s;
+        }
+      }
+      span {
+        color: #fff;
+        background: rgb(121, 121, 121);
+        padding: 0px 5px;
+        border-radius: 5px;
+
+        &:hover {
+          background: $priCol;
+          transition: all 0.5s;
+        }
+      }
+    }
+
+    h6 {
+      color: #000;
+      font-family: $pop;
+      font-weight: bold;
+      text-transform: uppercase;
+
+      img {
+        width: 40px;
+      }
+
+      span {
+        font-weight: 400;
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+  .navbar-layout {
+    nav {
+      h6 {
+        font-size: 15px;
+        padding-top: 5px;
+        img {
+          width: 25px;
+        }
+      }
+    }
+  }
+}

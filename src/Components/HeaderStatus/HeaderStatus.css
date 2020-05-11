@@ -1,0 +1,131 @@
+.status-card-layout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 30px auto 10px auto;
+}
+
+.status-card-layout .cases,
+.status-card-layout .deaths,
+.status-card-layout .recovered {
+  width: 95%;
+  padding: 15px 5px;
+  margin: auto;
+  border-radius: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  justify-items: center;
+  -webkit-box-shadow: 0px 3px 12px -1px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 3px 12px -1px rgba(0, 0, 0, 0.1);
+  font-family: "Roboto", sans-serif;
+}
+
+.status-card-layout .cases h1,
+.status-card-layout .deaths h1,
+.status-card-layout .recovered h1 {
+  color: #000;
+  font-weight: 700;
+}
+
+.status-card-layout .cases h6,
+.status-card-layout .deaths h6,
+.status-card-layout .recovered h6 {
+  color: #686868;
+}
+
+.status-card-layout .cases h5 span,
+.status-card-layout .deaths h5 span,
+.status-card-layout .recovered h5 span {
+  margin: 10px 5px;
+}
+
+.status-card-layout .cases h5 {
+  color: blue;
+}
+
+.status-card-layout .deaths h5 {
+  color: red;
+}
+
+.status-card-layout .recovered h5 {
+  color: #2ed573;
+}
+
+@media (min-width: 450px) and (max-width: 900px) {
+  .col-4 {
+    padding: 5px;
+  }
+  .cases,
+  .recovered,
+  .deaths {
+    text-align: center;
+    padding: 10px;
+  }
+  .cases h1,
+  .recovered h1,
+  .deaths h1 {
+    font-size: 24px;
+  }
+  .cases h6,
+  .recovered h6,
+  .deaths h6 {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 449px) {
+  .status-card-layout {
+    margin: 10px auto 10px auto;
+  }
+  .col-4 {
+    padding: 7px;
+  }
+  .cases,
+  .deaths,
+  .recovered {
+    -webkit-box-shadow: 0px 6px 12px -2px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 6px 12px -2px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  .cases .status-card-left,
+  .deaths .status-card-left,
+  .recovered .status-card-left {
+    margin: 5px auto;
+  }
+  .cases h1,
+  .deaths h1,
+  .recovered h1 {
+    font-size: 20px;
+  }
+  .cases h6,
+  .deaths h6,
+  .recovered h6 {
+    font-size: 14px;
+  }
+  .cases h5,
+  .deaths h5,
+  .recovered h5 {
+    margin: 5px auto;
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=HeaderStatus.css.map */

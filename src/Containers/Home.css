@@ -1,0 +1,35 @@
+.all-states-home {
+  margin: 30px auto 0px auto;
+}
+
+.districts-home {
+  margin: 30px auto 0px auto;
+}
+
+.page-footer {
+  font-family: "Roboto", sans-serif;
+  color: #757575;
+}
+
+.page-footer a {
+  color: #000;
+  margin: auto 5px auto 5px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.page-footer a:hover, .page-footer a:focus {
+  color: #2c17f4;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+  .all-states-home {
+    margin: 10px auto 0px auto;
+  }
+  .districts-home {
+    margin: 10px auto 0px auto;
+  }
+}
+/*# sourceMappingURL=Home.css.map */

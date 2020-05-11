@@ -1,0 +1,128 @@
+.dist-layout {
+  width: 60%;
+  margin: auto;
+  overflow-x: hidden;
+}
+
+.dist-layout .helper-text {
+  color: #7a7a7a;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+}
+
+.dist-layout .helper-text span {
+  color: #474747;
+}
+
+.dist-layout h3 {
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  border-left: 10px solid #2c17f4;
+  padding: 0px 0px 0px 7px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.dist-layout .btn-go-back {
+  margin: 10px auto 15px auto;
+  background: #fff;
+  color: #2c17f4;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.dist-layout .btn-go-back i {
+  margin: 0px 5px 0px 5px;
+}
+
+.dist-layout .btn-go-back:hover i {
+  margin: 0px 8px 0px 8px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.dist-layout .btn-go-back:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.dist-layout table {
+  text-align: center;
+  table-layout: fixed;
+}
+
+.dist-layout table thead {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+}
+
+.dist-layout table thead tr th {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0%;
+  top: 0%;
+  padding: 20px;
+  background: #fafafa;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.dist-layout table tbody {
+  font-family: "Roboto", sans-serif;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.dist-layout table tbody tr {
+  cursor: pointer;
+}
+
+.dist-layout table tbody tr span {
+  color: #8476ff;
+  margin: auto 5px auto auto;
+}
+
+.dist-layout table tbody tr td {
+  border: 2px solid #fff;
+  padding: 10px;
+  border-collapse: collapse;
+  border-radius: 12px;
+  word-wrap: break-word;
+  white-space: unset;
+}
+
+.dist-layout table tbody tr .td-state {
+  color: #000;
+  text-transform: capitalize;
+}
+
+.dist-layout table tbody tr:nth-child(odd) {
+  background: whitesmoke;
+}
+
+.dist-layout table tbody tr:hover {
+  background: #dfdbff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border-left: 2px solid #2c17f4;
+  transition: all 0.3s;
+}
+
+@media (min-width: 300px) and (max-width: 900px) {
+  .dist-layout {
+    width: 100%;
+  }
+  .dist-layout table {
+    table-layout: fixed;
+  }
+  .dist-layout table thead tr th {
+    padding: 10px;
+  }
+  .dist-layout table tbody tr td {
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=Districts.css.map */

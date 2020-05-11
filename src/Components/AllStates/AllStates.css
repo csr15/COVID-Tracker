@@ -1,0 +1,119 @@
+.all-states-layout {
+  width: 60%;
+  margin: auto;
+  overflow-x: hidden;
+}
+
+.all-states-layout h3 {
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  border-left: 10px solid #2c17f4;
+  padding: 0px 0px 0px 7px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.all-states-layout .helper-text {
+  color: #7a7a7a;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+}
+
+.all-states-layout .helper-text span {
+  color: #474747;
+}
+
+.all-states-layout table {
+  text-align: center;
+  table-layout: fixed;
+}
+
+.all-states-layout table thead {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+}
+
+.all-states-layout table thead tr th {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0%;
+  top: 0%;
+  padding: 20px;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+}
+
+.all-states-layout table tbody {
+  font-family: "Roboto", sans-serif;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.all-states-layout table tbody tr {
+  cursor: pointer;
+}
+
+.all-states-layout table tbody tr span {
+  color: #8476ff;
+  margin: auto 5px auto auto;
+}
+
+.all-states-layout table tbody tr td {
+  border: 2px solid #fff;
+  padding: 10px;
+  border-collapse: collapse;
+  border-radius: 12px;
+  word-wrap: break-word;
+  white-space: unset;
+}
+
+.all-states-layout table tbody tr td .delta-cases {
+  word-break: wrap;
+  color: red;
+  font-size: 12px;
+  margin: 0px 10px;
+}
+
+.all-states-layout table tbody tr td .delta-recover {
+  word-break: wrap;
+  color: #2ed573;
+  font-size: 12px;
+  padding: 0px;
+}
+
+.all-states-layout table tbody tr td .badge {
+  font-weight: 500;
+  font-size: 12px;
+  padding: 0px;
+}
+
+.all-states-layout table tbody tr .td-state {
+  color: #000;
+  text-transform: capitalize;
+}
+
+.all-states-layout table tbody tr:nth-child(odd) {
+  background: whitesmoke;
+}
+
+.all-states-layout table tbody tr:hover {
+  background: #dfdbff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border-left: 2px solid #2c17f4;
+  transition: all 0.3s;
+}
+
+@media (min-width: 300px) and (max-width: 900px) {
+  .all-states-layout {
+    width: 100%;
+  }
+  .all-states-layout table {
+    table-layout: fixed;
+  }
+  .all-states-layout table tbody tr td {
+    padding: 7px;
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=AllStates.css.map */

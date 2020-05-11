@@ -1,0 +1,112 @@
+//Color
+$priCol: #2c17f4;
+
+//Font
+$pop: "Poppins", sans-serif;
+$rob: "Roboto", sans-serif;
+
+.all-states-layout {
+  width: 60%;
+  margin: auto;
+  overflow-x: hidden;
+  h3 {
+    color: #000;
+    font-family: $pop;
+    border-left: 10px solid $priCol;
+    padding: 0px 0px 0px 7px;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  .helper-text {
+    color: rgb(122, 122, 122);
+    font-family: $rob;
+    font-size: 12px;
+    span {
+      color: rgb(71, 71, 71);
+    }
+  }
+  table {
+    text-align: center;
+    table-layout: fixed;
+    thead {
+      font-family: $rob;
+      text-transform: uppercase;
+      tr th {
+        position: sticky;
+        bottom: 0%;
+        top: 0%;
+        padding: 20px;
+        background: #fff;
+        border-bottom: 1px solid #ccc;
+        border-top: 1px solid #ccc;
+      }
+    }
+    tbody {
+      font-family: $rob;
+      color: rgba(0, 0, 0, 0.7);
+      tr {
+        cursor: pointer;
+        span {
+          color: #8476ff;
+          margin: auto 5px auto auto;
+        }
+        td {
+          border: 2px solid #fff;
+          padding: 10px;
+          border-collapse: collapse;
+          border-radius: 12px;
+          word-wrap: break-word;
+          white-space: unset;
+
+          .delta-cases {
+            word-break: wrap;
+            color: red;
+            font-size: 12px;
+            margin: 0px 10px;
+          }
+          .delta-recover {
+            word-break: wrap;
+            color: #2ed573;
+            font-size: 12px;
+            padding: 0px;
+          }
+          .badge {
+            font-weight: 500;
+            font-size: 12px;
+            padding: 0px;
+          }
+        }
+        .td-state {
+          color: #000;
+          text-transform: capitalize;
+        }
+        &:nth-child(odd) {
+          background: rgb(245, 245, 245);
+        }
+        &:hover {
+          background: #dfdbff;
+          transition: all 0.3s;
+          border-left: 2px solid $priCol;
+          transition: all 0.3s;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 300px) and (max-width: 900px) {
+  .all-states-layout {
+    width: 100%;
+    table {
+      table-layout: fixed;
+      tbody {
+        tr {
+          td {
+            padding: 7px;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}

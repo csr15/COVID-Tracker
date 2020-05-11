@@ -1,0 +1,96 @@
+//Color
+$priCol: #2c17f4;
+
+//Font
+$pop: "Poppins", sans-serif;
+$rob: "Roboto", sans-serif;
+
+.status-card-layout {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 30px auto 10px auto;
+  .cases,
+  .deaths,
+  .recovered {
+    width: 95%;
+    padding: 15px 5px;
+    margin: auto;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    justify-items: center;
+    box-shadow: 0px 3px 12px -1px rgba(0, 0, 0, 0.1);
+    font-family: $rob;
+
+    h1 {
+      color: #000;
+      font-weight: 700;
+    }
+    h6 {
+      color: rgb(104, 104, 104);
+    }
+    h5 {
+      span {
+        margin: 10px 5px;
+      }
+    }
+  }
+  .cases h5 {
+    color: blue;
+  }
+  .deaths h5 {
+    color: red;
+  }
+  .recovered h5 {
+    color: #2ed573;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 900px) {
+  .col-4 {
+    padding: 5px;
+  }
+  .cases,
+  .recovered,
+  .deaths {
+    text-align: center;
+    padding: 10px;
+    h1 {
+      font-size: 24px;
+    }
+    h6 {
+      font-size: 14px;
+    }
+  }
+}
+@media (min-width: 300px) and (max-width: 449px) {
+  .status-card-layout {
+    margin: 10px auto 10px auto;
+  }
+  .col-4 {
+    padding: 7px;
+  }
+  .cases,
+  .deaths,
+  .recovered {
+    .status-card-left {
+      margin: 5px auto;
+    }
+    box-shadow: 0px 6px 12px -2px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    h1 {
+      font-size: 20px;
+    }
+    h6 {
+      font-size: 14px;
+    }
+    h5 {
+      margin: 5px auto;
+      font-size: 14px;
+    }
+  }
+}

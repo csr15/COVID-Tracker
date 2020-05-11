@@ -1,0 +1,38 @@
+//Color
+$priCol: #2c17f4;
+
+//Font
+$pop: "Poppins", sans-serif;
+$rob: "Roboto", sans-serif;
+
+//All States Coloumn Property
+.all-states-home {
+  margin: 30px auto 0px auto;
+}
+.districts-home {
+  margin: 30px auto 0px auto;
+}
+.page-footer {
+  font-family: $rob;
+  color: rgb(117, 117, 117);
+  a{
+    color: #000;
+    margin: auto 5px auto 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    &:hover, &:focus{
+      color: $priCol;
+      transition: all 0.3s;
+    }
+  }
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+  .all-states-home {
+    margin: 10px auto 0px auto;
+  }
+  .districts-home {
+    margin: 10px auto 0px auto;
+  }
+}

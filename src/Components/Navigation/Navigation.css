@@ -1,0 +1,75 @@
+.navbar-layout nav {
+  padding: 5px 0px 0px 0px;
+  margin: 0px 0px 5px 0px;
+}
+
+.navbar-layout nav .navbar-toggler {
+  color: #000;
+}
+
+.navbar-layout nav .navbar-toggler:hover {
+  color: #2c17f4;
+}
+
+.navbar-layout nav .navbar-toggler:hover {
+  color: #2c17f4;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.navbar-layout nav .navbar a {
+  color: #686868;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  margin: 10px 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+.navbar-layout nav .navbar a:hover {
+  color: #2c17f4;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.navbar-layout nav .navbar span {
+  color: #fff;
+  background: #797979;
+  padding: 0px 5px;
+  border-radius: 5px;
+}
+
+.navbar-layout nav .navbar span:hover {
+  background: #2c17f4;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.navbar-layout nav h6 {
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.navbar-layout nav h6 img {
+  width: 40px;
+}
+
+.navbar-layout nav h6 span {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+  .navbar-layout nav h6 {
+    font-size: 15px;
+    padding-top: 5px;
+  }
+  .navbar-layout nav h6 img {
+    width: 25px;
+  }
+}
+/*# sourceMappingURL=Navigation.css.map */
