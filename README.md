@@ -1,4 +1,4 @@
-## Covid Tracker
+# Covid Tracker
 A dynamic website for monitoring COVID cases
 
 ## Technologies Used
@@ -10,3 +10,6 @@ A dynamic website for monitoring COVID cases
 - API
 - Google Analytics
 - Google Firebase Hosting
+
+## Link
+[COVID-19 Tracker](https://csr-tracker-15.web.app/)
