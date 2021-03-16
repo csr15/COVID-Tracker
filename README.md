@@ -1,4 +1,4 @@
-# Covid Tracker
+# COVID-19 Tracker
 A dynamic website for monitoring COVID cases
 
 ## Technologies Used
